@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    margin: 20px;
+}
+    .header{
+        background-color: hsl(0, 5%, 75%);
+        text-align: center;
+        vertical-align: auto;
+    }
+    
+    .nav1{
+        background-color: rgb(214, 214, 210);
+        text-align: center;
+        vertical-align: auto;
+
+    }
