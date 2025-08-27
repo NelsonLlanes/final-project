@@ -1,98 +1,57 @@
 <!DOCTYPE html>
+<!-- HTML BOILER PLATE -->
 <html lang="en">
-
+<!-- HTML Structure & Formatting:  -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gatella</title>
-    <link rel="stylesheet" href="styles.css"
+    <!-- icon -->
+    <link rel="icon" href="./ico.ico">
+
+    <!-- link de fuentes. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
 </head>
 
-<body>
-    <div class="box1">
+<body class="fondo">
 
-        <div class ="header">
-            <header>
-                <h1>Horneamos tus ideas</h1>
-                <h2>Gatella repostería</h2>
-            </header>
-        </div>
-        
-        <div class="nav1">
-            <!--navegacion principal-->
-            <nav aria-label="Navegación principal">
-                <a href="#inicio">Inicio</a><br>
-                <a href="#menu-y-servicios">Menú y servicios</a><br>
-                <a href="#contactanos">Contáctanos</a>
-            </nav>    
-        </div>
-        
-    </div>
     <main>
-        
-        <section id="inicio">
-            <h2>Gatella</h2>
-            <p>Pasteles, cupcakes y más.<br>Hacemos pasteles personalizados para tu evento.</p>
-        </section>
+        <h1>Horneamos tus ideas</h1>
+        <h2>Gatella repostería</h2>
+        <div class="about">
+            <img src="./assets/personaje.png" alt="personaje" style="grid-row: 1/3;">
 
-        <section id="menu-y-servicios">
-            <h2>Menú</h2>
-            </header>
-            <nav aria-label="Categorias del menú">
-                <!--navegacion secundaria-->
-                <a href="#postres">Postres</a>
-                <a href="#cupcakes">Cupcakes</a>
-                <a href="#pasteles">Pasteles</a>
-                <a href="#rebanadas">Rebanadas</a>
-            </nav>
+            <a href="./pages/about.html" style="justify-self: center;">About us</a>
+            <p>En Gatella Repostería creemos que cada postre cuenta una historia. Nos apasiona crear
+                postres personalizados que transmiten amor en cada detalle. Usamos ingredientes frescos
+                y de calidad, cuidando no solo el sabor, sino también la presentación para que cada
+                creación sea única.</p>
+        </div>
+        <!-- NAVEGACION PRINCIPAL -->
+        <div class="menuycontacto">
+            <div class="menu">
+                <a href="./pages/Services.html" style="grid-column: 2/4;">Menú y servicios</a>
+                <a href="./pages/Services.html"><img src="./assets/pastel1.png" alt="pastel1"></a>
+                <a href="./pages/Services.html"><img src="./assets/pastel3.jpg" alt="pastel3"
+                        style="height: 138px;"></a>
+                <a href="./pages/Services.html"><img src="./assets/pastel2.png" alt="pastel2"></a>
+            </div>
 
-            <article id="Postres">
-                <h3>Postres</h3>
-                <p>
-                    Roles de canela<br>Flan<br>Chocoflan<br>Pay de queso<br>Brownies<br>Pancitas
-                </p>
-            </article>
-
-            <article id="Cupcakes">
-                <h3>Cupcakes</h3>
-
-                <p>
-                    Vainilla<br>Chocolate<br>Relleno de cajeta y nutella<br>Lunch box
-                </p>
-            </article>
-
-            <article id="Pasteles">
-                <h3>Pasteles</h3>
-                <p>
-                    4-6 porciones<br>12-15 porciones<br>15-20 porciones<br>20-25 porciones<br>25-30 porciones
-                </p>
-                <aside>
-                    <h3>Promoción del mes</h3>
-                    <p>10% de descuento en pasteles personalizados. Promocion válida hasta <time datetime="2025-08-31">
-                            31 de agosto 2025</time></p>
-                </aside>
-            </article>
-
-            <article id="Rebanadas">
-                <h3>Rebanadas</h3>
-                <p>
-                    Flan<br>Chocoflan<br>Pay de queso<br>Beso de ángel
-                </p>
-            </article>
-        </section>
-
-        <section id="contactanos">
-            <h2>Opciones de contacto</h2>
-            <a href="https://www.instagram.com/gatella_reposteria/">Mándanos DM por Instagram</a>
-            <a href="https://wa.me/526621574556">Escríbenos en WhatsApp</a>
-
-        </section>
+            <div class="contactanos">
+                <a href="./pages/contact.html" style="grid-column: 1/3;">Contáctanos</a>
+                <a href="https://www.instagram.com/gatella_reposteria/"><img src="./assets/instagram.png"
+                        alt="insta ico" style="height: 40px;"></a>
+                <a href="https://wa.me/526621574556"><img src="./assets/wha logo.png" alt="wha ico"
+                        style="height: 40px;"></a>
+            </div>
+        </div>
     </main>
-
     <footer>
         <p>&copy; 2025 Gatella Repostería.</p>
-        <a href="https://www.instagram.com/gatella_reposteria/">Instagram</a>
-        <a href="https://wa.me/526621574556">WhatsApp</a>
     </footer>
 
 </body>
