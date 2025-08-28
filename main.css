@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* background */
 .fondo {
     background: url("./assets/segundofondo.png") center/cover no-repeat;
 
@@ -81,7 +82,7 @@ main img {
     text-decoration: none;
 }
 
-/* otras paginas */
+/* other pages */
 
 
 .fondo2 {
@@ -209,7 +210,7 @@ nav ul a:active {
 }
 
 #menu-y-servicios img {
-    float: right;
+    float: right;   
     height: 100px;
 }
 
